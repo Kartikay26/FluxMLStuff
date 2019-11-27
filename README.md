@@ -1,6 +1,6 @@
 # FluxMLStuff
 
-Basic ML projects in Julia using the Flux ML library.
+Basic ML projects in [Julia](https://julialang.org/) using the [Flux ML library](https://fluxml.ai/).
 
 ## Introduction
 
@@ -51,3 +51,7 @@ for i in 1:1000
     println("Total Loss: $(totalLoss()), p: $p")
 end
 ```
+
+Animation:  
+
+![Animation](https://github.com/Kartikay26/FluxMLStuff/blob/master/img/CurveFitting.gif?raw=true)
