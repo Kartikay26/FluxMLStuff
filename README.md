@@ -69,7 +69,6 @@ model = Chain(
 )
 ```
 
-Animation:
+Animation:  
+
 ![Animation](https://github.com/Kartikay26/FluxMLStuff/blob/master/img/MLPfit.gif?raw=true)
-
-
