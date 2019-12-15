@@ -17,7 +17,9 @@ Flux is a julia library for machine learning. It features:
 - Automatic Differentiation (Differentiable Programming)
     - This means that for using gradient descent, Flux will compute the gradients
       by itself at runtime. We do not have to specify the details of the
-      backpropagation step.
+      backpropagation step. This also means we are not limited to the standard layers.
+      We can create our own layers with complex code (loops, if/else, even Diffrential
+      Equation solvers!)
 - Can be used with GPUs/TPUs
 - Can be exported easily to web technologies
 
@@ -69,6 +71,6 @@ model = Chain(
 )
 ```
 
-Animation:  
+Animation: (wait for it :P ...)  
 
 ![Animation](https://github.com/Kartikay26/FluxMLStuff/blob/master/img/MLPfit.gif?raw=true)
