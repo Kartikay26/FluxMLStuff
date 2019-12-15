@@ -55,3 +55,21 @@ end
 Animation:  
 
 ![Animation](https://github.com/Kartikay26/FluxMLStuff/blob/master/img/CurveFitting.gif?raw=true)
+
+## 2. Multi Layer Perceptron
+
+Again, we are fitting a curve. But this time we will fit it using a Multi Layer Perceptron with two hidden layers having 3 neurons each.
+
+The model:
+```julia
+model = Chain(
+    Dense(1, 3, σ),
+    Dense(3, 3, σ),
+    Dense(3, 1),
+)
+```
+
+Animation:
+![Animation](https://github.com/Kartikay26/FluxMLStuff/blob/master/img/MLPfit.gif?raw=true)
+
+
